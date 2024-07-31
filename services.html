@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<link rel="stylesheet" href="index.css">
+<link rel="script" href="index.js">
+
+</head>
+<body>
+  <section >
+    <header class="services-bg">
+        
+
+    </header> 
+   
+    <nav class="navbar navbar-expand-lg navbar-light bg-light bg-transparent fixed-top">
+        <div class="container p-2">
+      
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <a href="#"><img src="img/logo/Sunlight holidays logo3.png" class="logo" alt="logo"></a>
+            <div class="logo-name"><h2>SunLight Holidays</h2>
+            <h5>Time to travel</h5></div>
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a  href="index.html"><i class="fa-solid fa-house"></i>Home</a>
+              </li>
+              <li class="nav-item">
+                <a  href="about.html"><i class="fa-solid fa-address-card"></i>About</a>
+              </li>
+              <li class="nav-item">
+                <a class="active" href="services.html"><i class="fa-solid fa-handshake"></i>Services</a>
+              </li>
+              <li class="nav-item">
+                <a  href="contact.html"><i class="fa-solid fa-phone"></i>Contact</a>
+              </li>
+            </ul>
+         
+          </div>
+        </div>
+      </nav>
+    </section>
+     
+     
+      <!-- <section id="services">     
+      <div class="container-fluid px-5" > -->
+        <!-- <h1>Our Services</h1> -->
+        <!-- <div>
+            <h4>Sourcing from India to the World:</h4>
+            <p>Leverage India’s diverse manufacturing landscape with our expertise. We help you find and
+              source products that meet your quality standards and business requirements, ensuring timely
+              delivery and competitive pricing.</p>
+            <h4>Sourcing from China to India:</h4>
+              <p>Expand your product portfolio with goods from China. Our extensive network and thorough
+              vetting process guarantee that you receive the best products at the best prices.</p>
+
+             <h4>Sourcing from Vietnam to India:</h4>
+            <p> Discover high-quality and competitively priced products from Vietnam. We facilitate seamless
+            import processes to bring you the best of Vietnamese manufacturing.</p>
+
+            <marquee bgcolor="#ccc" loop="-1" scrollamount="5" width="100%">THREE DREAMS E-COMMERCE PRIVATE LIMITED, CHENNAI ,INDIA.</marquee>
+
+        </div> -->
+
+      <!-- </div>
+      </section>  -->
+
+
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+      <script>
+        var nav=document.querySelector('nav');
+        window.addEventListener('scroll',function () {
+           if(window.pageYOffset > 100){
+               nav.classList.add('bg-dark','shadow');
+            }else{
+            nav.classList.remove('bg-dark');
+            }
+        })
+      </script>
+</body>
+</html>
